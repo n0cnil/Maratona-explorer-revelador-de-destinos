@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
   background-color: black;
   background: url(https://i.imgur.com/WyyvR5h.jpg);
@@ -15,52 +19,54 @@ body {
 #morpheus {
   height: auto; 
   width: auto; 
-  max-width: 300px; 
-  max-height: 300px;
-  margin-top: 30px;
+  max-width: 30rem; 
+  max-height: 30rem;
+  margin-top: 3rem;
 }
 
 #logo {
   height: auto; 
   width: auto; 
-  max-width: 300px; 
-  max-height: 300px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  max-width: 30rem; 
+  max-height: 30rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 #container {
   width: 80%;
-  margin-top: 150px;
-  max-width: 550px;
+  margin-top: 15rem;
+  max-width: 55rem;
   margin-inline: auto;
-  box-shadow: 2px 10px 15px 5px rgba(0,100,0,0.78);
-  border-radius: 30px;
-  padding: 30px;
+  box-shadow: 0.2rem 1rem 1.5rem 0.5rem rgba(0,100,0,0.78);
+  border-radius: 3rem;
+  padding: 3rem;
 }
 
 h1 {
-margin-top: 40px;
-margin-bottom: 10px;
+font-size: 4rem;
+margin-top: 4rem;
+margin-bottom: 1rem;
 opacity: 0.9;
 }
 
 p {
-  margin-bottom: 40px;
+  font-size: 2rem;
+  margin-bottom: 4rem;
   opacity: 0.7;
 }
 
 input, button {
   display: block;
   width: 70%;
-  padding: 20px;
-  font-size: 20px;
-  border-radius: 50px;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 5rem;
   margin-inline: auto;
 }
 
 input {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   text-align: center;
   text-decoration: white;
   border: none;
@@ -84,13 +90,13 @@ button:hover {
 }
 
 #resposta {
-    margin-top: 30px;
+    margin-top: 3rem;
     transition: opacity 1s;
     }
 
 #resposta div {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: normal;
   opacity: 0.9;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
