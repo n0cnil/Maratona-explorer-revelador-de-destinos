@@ -35,7 +35,8 @@ body {
 
 #container {
   width: 80%;
-  margin-top: 15rem;
+  margin-top: 4rem;
+  /*margin-bottom: 2rem;*/
   max-width: 55rem;
   margin-inline: auto;
   box-shadow: 0.2rem 1rem 1.5rem 0.5rem rgba(0,100,0,0.78);
